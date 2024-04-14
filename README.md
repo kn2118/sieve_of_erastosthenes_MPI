@@ -8,6 +8,5 @@ Kevin Ng
 ` module load mpi/openmpi-x86_64`
 3. Compile MPI program 
 ` mpicc -g -Wall -std=c99 -o mpi_primes primes.c -lm ` 
-4. Execure MPI Program (10 processes, N= 1000 for the example below)
-  * gets primes between 2 through 1000 
+4. Execute MPI Program (10 processes, N= 1000 for the example below) to get primes from 2 through 1000
 ` mpiexec -n 10 ./mpi_primes 1000 `
