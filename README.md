@@ -1,5 +1,5 @@
 # Implementation of Sieve of erastosthenes in MPI 
-Kevin Ng
+Kevin Ng  <br />
 4/14/2024
 
 1. Connect to server  <br />
